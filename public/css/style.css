@@ -14,12 +14,7 @@ nav .brand-logo {
     padding: 0;
     left: 13%;
 }
-nav ul li  {
-   opacity: 0.5;
-}
-nav ul li:hover  {
-    opacity: 1;
- }
+
  .body {
     background-color: #f2f2f2;
  }
@@ -38,3 +33,18 @@ nav ul li:hover  {
 #snackbar{
     display: none;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
