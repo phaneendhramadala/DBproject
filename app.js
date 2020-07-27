@@ -18,7 +18,7 @@ const connect  =  mySQL.createConnection({
     host:"localhost",
     user:'root',
     password:'',
-    //database: "phanifinalproject"
+    database: "phanifinalproject"
 });
 
 
